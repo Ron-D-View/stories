@@ -10,11 +10,111 @@ body{
 </style>
 </head>
 <body>
+<canvas width=300 height=150 id="ttd"></canvas>
+<script>
+	let c = document.getElementById("ttd").getContext("2d");
+	c.strokeStyle = "lime";
+	c.beginPath();
+	// up arrow
+	c.moveTo(150, 150); c.lineTo(150, 0); c.lineTo(145, 5); c.lineTo(150, 0); c.lineTo(155, 5);
+	// left arrow
+	c.moveTo(140, 75); c.lineTo(160, 75); c.lineTo(155, 70); c.lineTo(160, 75); c.lineTo(155, 80);
+	c.stroke();
+	c.closePath();
+</script>
 <h1>A Short Story</h1>
 
 
 <p>A pebble has hit the particle accelerator.</p>
-<p>At least, that's what we think happened. It couldn't have come from inside the reactor because we simply didn't add the mass and energy needed for the size of the initial explosion. Any bigger than a pebble and we'd be dead already. Luckily, we still have time before the explosion reaches us.</p>
-<p>I told them we should have kept it underground, but nooooo, somebody wanted to stretch it across multiple fucking planets. So we could get more government funding. Next year. Which we'll likely never get to see.</p>
+<p>At least, that's what we think happened. When half of the accelerator is on the fucking moon it becomes difficult to just "stand up and go check it out". From the planetside half of the accelerator, all we had to go on was what we could see.</p>
+<p>Normally this isn't the case; we knew when we built the damn thing that it'd be nigh unreachable on such a radioactive moon. We have various monitoring devices hooked up to everything on the lunar half of the accelerator, and these monitoring devices each have their own power sources and monitoring devices. If anything goes wrong we'd know how and why immediately.</p>
+<p>Except we don't.</p>
+<p>Not only do we have no idea why the accelerator isn't working, we have no communications at all. Nor any reasonable evidence as to what may have happened. Communications aren't jammed, there's nothing in the way. Power isn't out, we'd have gotten warnings about that a long time ago. More importantly, the moon is still very much radioactive, so the lunar half of the accelerator still has power. Our receiver is working fine, we already checked. None of the devices on the moon failed on their own, none of the stuff we use on the moon has failed in a radioactive environment in over three million years. Our only guess is that something got in there and broke something (or several things) critical to data being sent out. Whatever got in there probably came from space and, given that no explosion was visible from outside, it must have been no bigger than a pebble.</p>
+<p>At this point the only thing we have left to do is send someone on the four hour round-trip to go check it out.</p>
+<p>Might as well be the janitor.</p>
+<p>After I get all set up and confirm for the umpteen-billionth time that <i>yes, I do know how to drive a fucking shuttle I'm not six</i> and <i>no, just because I do a shit job sweeping doesn't mean I don't know basic particle physics</i> I head for the shuttle room.</p>
+<p>I jump into a shuttle and start the engine. After entering the flight path data, I start the intercom to ask the control center to open the ceiling.</p>
+<p>"Ready for liftoff, Krem?"</p>
+<p>"Fuck off Clover."</p>
+<p>"5"</p>
+<p>"I'm going to skin you alive, Clover."</p>
+<p>"4"</p>
+<p>"With a door handle."</p>
+<p>"3"</p>
+<p>"Don't ask me how, I'll figure it out."</p>
+<p>"2"</p>
+<p>"You'll never know what hit you."</p>
+<p>"1"</p>
+<p>"But I'll know. It will have been a door handle, Clover."</p>
+<p>"0"</p>
+<p>"A fucking door handle."</p>
+<p>"Blastoff!"</p>
+<p>A loud click is heard over the intercom and the shuttle room's ceiling starts peeling away slowly. We both spend a few painful seconds breathing loudly into our respective microphones as it does so.</p>
+<p>"Good luck out there, Krem! I'll miss you!"</p>
+<p>"You have a little over four hours to learn how to sleep with your eyes open."</p>
+<p>I turn off the intercom and tell the shuttle to start the flight path.</p>
+<hr>
+<hr>
+<p>Less than half an hour into the flight I give up and turn on the intercom.</p>
+<p>"Miss me already?"</p>
+<p>I am a masochist.</p>
+<p>"I hope you've started copying instructions on how to keep an eye out at all times. It should only take 5 minutes."</p>
+<p>"Just like it should only take 5 minutes to copy the instructions on how to sweep?"</p>
+<p>I turn the intercom back off.</p>
+<hr>
+<hr>
+<p>About an hour later I turn the intercom back on.</p>
+<p>"So, did you copy the sweeping instructions yet?"</p>
+<p>"You know, it wouldn't hurt to do <i>some</i> of the chores around the facility. Or maybe, I dunno, get a bot to do it?"</p>
+<p>"But you're the only other person here! If you don't do all the chores, who will?"</p>
+<p>"I'm copying instructions on how to make a door handle right now."</p>
+<p>"C'mooooon, don't be like that!"</p>
+<p>"But what should I make it out of? I'm thinking salt."</p>
+<p>"Krem, you'll be so lonely when I'm gone!"</p>
+<p>"Maybe clay? I could make it out of clay."</p>
+<p>"C'mon Krem, I can see the data going from the base to the shuttle. It's just us chatting, you're not copying anything right now. You're about a half hour out from the moon, let's talk game plan. What are you planning to check first?"</p>
+<p>"I don't know, it's a basic particle accelerator. I'll look around inside, hope I don't explode, and if I find an explanation I'll report it back to you. We both know this place like the back of our hands, I'll probably be able to figure something out. Besides, I've got about six days to investigate given the protective equipment I packed, we don't need to psych ourselves out before I even get there."</p>
+<p>"I just don't like when you're unsafe. Promise me you're not gonna get killed while you're in there."</p>
+<p>"The suit I'm wearing is strong enough to stand under a cave-in, I'll be fine."</p>
+<p>"The lunar accelerator was made of the same stuff. Now it's unresponsive. I don't want the same thing to happen to you."</p>
+<p>I grumble a little.</p>
+<p>"I'll start my investigation outside and have some of the bots do the work inside."</p>
+<p>"Good. Thank you."</p>
+<p>I turn the intercom back off.</p>
+<hr>
+<hr>
+<p>An hour later the shuttle descends to the surface of the moon. The outer tube of the shuttle rapidly decelerates as it starts to make contact, and the inner tube decelerates much slower so the acceleration doesn't kill me. I put on my radiation gear, grab all my stuff, and wait for the inner tube to reach the bottom of the shuttle. Once the airlock connects I step outside. I make an initial survey of the area and turn the intercom on.</p>
+<p>"Nothing unusual visible from outside."</p>
+<p>"Okay, go ahead and send a bot in."</p>
+<p>I take a little tank-shaped rover with a camera out of my bag and set it on the ground. Small amounts of smoke start curling out of the wheels.</p>
+<p>"Hey Clover, I think I missed a spot when putting on the radiation cover for this guy. We're down a bot."</p>
+<p>"Which one is it?"</p>
+<p>"Little tank-shaped thingamabob. Got a camera on it. Orange. Well, it was. Now it's brown."</p>
+<p>"Noooooo, not Charles! He brings me breakfast!"</p>
+<p>"You use this thing for meal transports? Why not use a bot made for transportation, or better yet, just get it yourself?"</p>
+<p>"Because he's so cute when he tries to balance plates on his camera! Also I don't feel like reprogramming him to stop doing that."</p>
+<p>"So if, let's say the bot gets wet, by, <i>I dunno</i>, dropping food on itself because it's, <i>I dunno</i>, balancing plates on its camera, then that spot would have a weaker radiation cover?"</p>
+<p>"Hey, don't blame me for this! You were supposed to dry it before placing the radiation cover on it! You copied the instructions for this before doing it, you should know!"</p>
+<p>I may have skipped a step.</p>
+<p>"I'm sorry, do you think I'm the kind of person to skip steps?"</p>
+<p>"I guess not. Go ahead and send another bot in."</p>
+<p>I grab another bot, attach some measurement devices, and start fiddling with the controller. The thick gloves make it difficult to maneuver the controls. I'd rather just send instructions to it using standard mental connection, but it's not safe to use that when you're close to radioactive material, never mind standing on a moon made of it. I clumsily get the bot to enter the lunar half of the particle accelerator through an airlock and use its camera to look at what's inside.</p>
+<p>Or rather, what isn't.</p>
+<p>The whole center of the facility is hollowed out. Sparks and objects pop in and out of existence rapidly, and the accelerator itself has bits and pieces flitting about in the wind. The edges of the facility start shrinking back, and the center of the chaos starts growing. It grows faster and faster until I realize <i>no</i>, It's not growing, <i>the bot is falling in!</i> I fumble with the controls in a futile, panicked attempt to retrieve the bot. It spirals into the chaos and the feed cuts out, leaving me alone in the serene, radioactive exterior of the accelerator.</p>
+<p>Still high on adrenaline, I rush back to the shuttle and tell it to take me back to the planetside accelerator. I am not wasting any more time near that thing than I have to.</p>
+<p>The shuttle launches upwards and as soon as I'm off the moon I hear Clover breathe a huge sigh of relief over the intercom.</p>
+<p>"Krem, did you see that thing!?"</p>
+<p>"Yes, Clover, I saw that thing! I was fucking there! What the hell do you think it was?"</p>
+<p>"I have no idea, maybe it was a radiation leak?"</p>
+<p>"A radiation leak? Are you crazy? You and I have both copied so much information about radiation from the Archive to know that that's <i>not what that was</i>."</p>
+<p>"And you're sure it's not the experiment we were about to running?"</p>
+<p>"Absolutely not, that was scheduled to start prepping 8 minutes and 43 seconds after it shut down. There's no way that could have caused this."</p>
+<p>"Whatever it was it certainly wasn't a pebble, that's for sure."</p>
+<p>"No shit."</p>
+<p>...</p>
+<p>"Give me a minute, I need to calm down", I say into the intercom. "Take your time", she replies. I try to catch my breath. In two hours I'll be back on the planet. In two hours I'll be back with Clover. Everything will be okay. I'll be two hours away from that... thing down there. Up there. Whatever. Space. Deep breath in, deep breath out. Deep breath in, deep breath out. I feel my heart rate go back down. I lean into the intercom and quietly say, "I think I'm okay now."</p> 
+<p>"So... aren't you glad you didn't go in?"</p>
+<p>I turn off the intercom and start copying instructions on how to make a door handle.</p>
 
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Chapter 2 ==&gt;</a>
 </body>
